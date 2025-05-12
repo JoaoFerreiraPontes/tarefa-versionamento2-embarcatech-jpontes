@@ -1,0 +1,23 @@
+Nome Completo: João Ferreira Pontes
+Comandos Git utilizados:
+1. mkdir atividade-git
+2. cd atividade-git
+3. git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead .
+4. echo 'Primeira linha de exemplo' > texto.txt
+5. git add texto.txt
+6. git commit -m 'Adiciona texto.txt na main'
+7. git checkout -b feature-1
+8. echo 'Alteração na feature-1' > texto.txt
+9. git add texto.txt
+10. git commit -m 'Altera texto.txt na feature-1'
+11. git checkout main
+12. echo 'Alteração na main' > texto.txt
+13. git add texto.txt
+14. git commit -m 'Altera texto.txt na main'
+15. git merge feature-1
+16. git add texto.txt
+17. git commit -m 'Merge feature-1 na main (conflito resolvido)'
+18. git checkout -b add-comandos
+19. git remote add origin-atividade https://github.com/JoaoFerreiraPontes/NOME-REPOSITÓRIO
+20. git push origin-atividade main
+21. git push origin-atividade add-comandos
